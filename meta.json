@@ -1,0 +1,25 @@
+{
+ "name": "sqlite",
+ "version": "3.46.1",
+ "license": "Public domain",
+ "homepage": "https://www.sqlite.org",
+ "licenses": [
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "sqlite-autoconf-3460100.tar.gz"
+ ],
+ "desc": "SQLite 3.46.1: the library (with FTS5 and JSON) and the sqlite3 shell",
+ "file": "sqlite-3.46.1.tpkg",
+ "size": 3435295,
+ "sha256": "16221f7bd878584d2d988fe0e2abafd2cfdb4efff6cb906d3a84a2eb202cfe91",
+ "unpacked": 7287215,
+ "min_build": 615,
+ "depends": [
+  "gcc",
+  "zlib"
+ ],
+ "commands": {
+  "sqlite3": "bin/sqlite3"
+ }
+}
